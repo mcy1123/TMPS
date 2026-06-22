@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+.venv/
+
+# Documentation
+*.md
+
+# Config files
+*.yml
+*.yaml
+*.yml.*
+
+# Inner gitignore (keep root .gitignore)
+TMPS/.gitignore
+
+# Skill evolution intermediate data
+**/intermediates/
+**/evolution_log.json
+**/compression_log.json
+
+# Experiment data
+trajectories/
+**/historical_trajectories/
+**/results/
+**/few_shot_data/
+**/figures/
+
+# Analysis and plotting code
+**/compute_*.py
+**/guess_analysis.py
+**/plot.py
+**/paper_figures.py
+**/cost_efficiency_plot.py
+**/step_sensitivity.py
+**/token_failure_analysis.py
+**/confidence-prediction.py
+**/analyze_*.py
+**/compare_*.py
+**/eval_*.py
+**/evolve_*.py
+**/compress_skill.py
+**/extract_case_study.py
+**/run_all_baselines.py
+**/run_baselines_with_tokens.py
+**/check_finish_rate.py
+**/auto_error_identification.py
+**/calibrate_reaction_baseline.py
+**/build_paper_reaction_controls.py
+**/plot_use_case.py
+**/test_plotting.py
+
+# Experiment runners
+**/experiments/
+
+# Config directories
+**/configs/
+**/config/
+**/guess_configs/
+
+# Tests
+**/tests/
+
+# Excluded environments
+TMPS/hotpotqa/
+TMPS/os-tuning/
+
+# Excluded experiment skills
+TMPS/e-commerce/tau-bench/skills/
+TMPS/chess-game/skills/
+
+# IDE and editor
+.vscode/
+.agents/
+.codex
+
+# AI artifacts
+.specstory/
+.spec-workflow/
+
+# Claude
+CLAUDE.md
+.claude/
+
+# Paper and docs
+Paper/
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+.github/
+**/Paper/
+*.tar.gz
+*.tgz
+*.bak*
+*.backup
+*.broken
+*.tmp
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*_latexmk_preview.*
